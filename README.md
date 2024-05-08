@@ -1,6 +1,17 @@
 # IS211_Assignment8
 IS211_Assignment8
 
-This README provides a basic overview, instructions on how to run the game, and a brief explanation of the design patterns used. You can adjust it as needed for your repository.
+# Pig Game with Design Patterns
 
-Would you like to proceed with downloading the Python code, or is there anything else you’d like to adjust or add? &#8203;``【oaicite:0】``&#8203;
+## Overview
+This project is an extension of the classic dice game Pig, incorporating design patterns like Proxy and Factory to enhance the game's functionality and maintainability.
+
+## Features
+- Play against a computer with basic AI.
+- Option to play a timed game that ends after one minute.
+
+## How to Run
+Make sure you have Python installed on your machine. You can run the game using the following command:
+
+```bash
+python pig_game.py --player1 [human|computer] --player2 [human|computer] [--timed]
